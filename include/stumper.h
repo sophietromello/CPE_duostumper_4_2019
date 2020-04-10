@@ -23,6 +23,7 @@
 typedef struct mix_s
 {
     int size;
+    int count_letter;
 } mix_t;
 
 int mix_word(void);
