@@ -10,6 +10,7 @@
 int main (int ac, char **av)
 {
     mix_t mix;
+    mix.size = 0;
     char *str = NULL;
     char **word = NULL;
 

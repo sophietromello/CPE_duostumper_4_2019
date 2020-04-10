@@ -22,7 +22,7 @@
 
 typedef struct mix_s
 {
-
+    int size;
 } mix_t;
 
 int mix_word(void);
