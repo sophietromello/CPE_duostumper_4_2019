@@ -20,24 +20,11 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 
-typedef struct crocus_s
+typedef struct mix_s
 {
-    int boulean_0;
-    int boulean_1;
-    int boulean_2;
-    int boulean_3;
-    int boulean_4;
-    int boulean_5;
-    int boulean_6;
-    int boulean_7;
-    int boulean_8;
-    int boulean_9;
-    char c;
-} crocus_t;
 
-int crocus_n(int ac, char **av, crocus_t *crocus);
-void init_boulean(crocus_t *crocus);
-void fonction_zero(crocus_t *crocus);
-void fonction_one(crocus_t *crocus);
+} mix_t;
+
+int mix_word(void);
 
 #endif /*_DUO_STUMPER_*/

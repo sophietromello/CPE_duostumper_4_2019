@@ -7,7 +7,7 @@
 
 MAIN	=	main.c
 
-SRC	=	crocus.c	\
+SRC	=	mix_word.c	\
 
 TESTS	=	main.c
 
