@@ -15,7 +15,7 @@ OBJ	=	$(MAIN:.c=.o) $(SRC:.c=.o)
 
 OBJ_TESTS =	$(SRC:.c=.o) $(TESTS:.c=.o)
 
-NAME	=	crocus
+NAME	=	mixword
 
 CC = gcc
 
