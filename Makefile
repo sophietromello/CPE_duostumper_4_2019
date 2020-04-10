@@ -7,7 +7,8 @@
 
 MAIN	=	main.c
 
-SRC	=	mix_word.c	\
+SRC	=	str_to_word_array.c	\
+		mix_word.c			\
 
 TESTS	=	main.c
 
