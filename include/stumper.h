@@ -26,5 +26,6 @@ typedef struct mix_s
 } mix_t;
 
 int mix_word(void);
+char *fs_open_file(char const *filepath);
 
 #endif /*_DUO_STUMPER_*/
