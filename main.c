@@ -12,6 +12,7 @@ int main (int ac, char **av)
     mix_t mix;
     mix.size = 0;
     mix.count_letter = 0;
+    mix.map = NULL;
     char *str = NULL;
     char **word = NULL;
 
